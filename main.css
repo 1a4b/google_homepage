@@ -1,7 +1,14 @@
 #top-nav{
-    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 #top-nav-left {
