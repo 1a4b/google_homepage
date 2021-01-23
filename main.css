@@ -1,11 +1,22 @@
 #top-nav{
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top-nav-left {
+    align-self: flex-start;
+}
+
+#top-nav-right {
+    align-self: flex-end;
 }
 
 #logo {
     display: block;
     margin: auto;
 }
+
 #search-bar {
     display: block;
     margin: auto;
