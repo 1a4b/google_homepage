@@ -37,6 +37,19 @@ a:hover {
     text-decoration: underline;
 }
 
+/* The Apps Widget in the Top Navigation */
+
+#apps {
+    display: grid;
+    grid-template-columns: 6px 6px 6px;
+    grid-template-rows: 6px 6px 6px;
+    gap: 2px;
+}
+
+.app-square {
+    background-color: rgb(77, 77, 77);
+}
+
 /* Main Content */
 
 #logo {
