@@ -33,6 +33,10 @@ a {
     color: rgb(77, 77, 77);
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* Main Content */
 
 #logo {
