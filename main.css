@@ -1,3 +1,5 @@
+/*Top Navigation Components */
+
 #top-nav{
     width: 100%;
     display: flex;
@@ -17,6 +19,10 @@ li {
     margin: 0px 3px 0px 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 #top-nav-left {
     align-self: flex-start;
 }
@@ -24,6 +30,8 @@ li {
 #top-nav-right {
     align-self: flex-end;
 }
+
+/* Main Content */
 
 #logo {
     display: block;
