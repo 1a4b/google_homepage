@@ -7,6 +7,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#top-nav-left {
+    align-self: flex-start;
+}
+
+#top-nav-right {
+    align-self: flex-end;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -23,19 +31,11 @@ a {
     text-decoration: none;
 }
 
-#top-nav-left {
-    align-self: flex-start;
-}
-
-#top-nav-right {
-    align-self: flex-end;
-}
-
 /* Main Content */
 
 #logo {
     display: block;
-    margin: auto;
+    margin: 200px auto auto auto;
 }
 
 #search-bar {
