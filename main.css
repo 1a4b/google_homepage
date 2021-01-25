@@ -87,7 +87,7 @@ a:hover {
     display: flex;
 }
 
-#search-bar-input:hover {
+#search-bar:hover {
     box-shadow: 2px 2px 2px grey, -2px -2px 2 grey;
 }
 
@@ -123,4 +123,20 @@ a:hover {
     margin: 8px;
     padding: 10px 15px 10px 15px;
 
+}
+
+/* Bottom Navigation */ 
+
+#bottom-nav {
+    display: grid;
+    width: 100%;
+
+}
+
+#bottom-nav-left {
+    display: flex;
+}
+
+#bottom-nav-right {
+    display: flex;
 }
