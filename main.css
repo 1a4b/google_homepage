@@ -85,7 +85,7 @@ a:hover {
 }
 
 #gg-search {
-    color: rgb(160, 160, 160);
+    background: rgb(160, 160, 160);
 }
 
 input[type=text] {
