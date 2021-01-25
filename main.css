@@ -84,10 +84,23 @@ a:hover {
     background-color:white;
 }
 
-#gg-search {
-    background: rgb(160, 160, 160);
+#search-bar-input {
+    /*display: block;
+    margin: auto;
+    height: 30px;
+    width: 500px;
+    margin: 30px auto auto auto;
+    border-radius: 20px;
+    border: 1px solid rgb(216, 216, 216);
+    background-color:white;
+    position: relative;*/
+}
+
+#search-icon {
+    float: right;
+
 }
 
 input[type=text] {
-    padding-left: 20px;
+    padding-left: 40px;
 }
