@@ -87,6 +87,10 @@ a:hover {
     display: flex;
 }
 
+#search-bar-input:hover {
+    box-shadow: 2px 2px 2px grey, -2px -2px 2 grey;
+}
+
 #search-bar-input {
     border: none;
     background-color: white;
@@ -111,11 +115,12 @@ a:hover {
 }
 
 .search-button {
-    background-color: rgb(235, 232, 232);
+    background-color: rgb(247, 247, 247);
     color: rgb(56, 56, 56);
     text-decoration: none;
-    border-radius: 2px;
-    margin: 5px;
-    padding: 8px 12px 8px 12px;
+    font-size: .9em;
+    border-radius: 3px;
+    margin: 8px;
+    padding: 10px 15px 10px 15px;
 
 }
