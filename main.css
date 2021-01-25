@@ -104,16 +104,18 @@ a:hover {
 
 #main-buttons {
     margin: auto;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
     display: flex;
 }
 
-
 .search-button {
-    background-color: rgb(177, 177, 177);
+    background-color: rgb(235, 232, 232);
     color: rgb(56, 56, 56);
-    font-weight: bold;
     text-decoration: none;
     border-radius: 2px;
     margin: 5px;
     padding: 8px 12px 8px 12px;
+
 }
