@@ -97,10 +97,12 @@ a:hover {
 }
 
 #search-icon {
+    display: block;
     float: right;
-
+    padding: 10px;
 }
 
 input[type=text] {
-    padding-left: 40px;
+    border: none;
+    background-color: white;
 }
