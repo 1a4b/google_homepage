@@ -138,6 +138,11 @@ a:hover {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(233, 233, 233);
+    color: rgb(56, 56, 56);
 }
 
 #bottom-nav-left {
@@ -146,4 +151,15 @@ a:hover {
 
 #bottom-nav-right {
     display: flex;
+}
+
+#bottom-nav-center {
+    display: flex;
+}
+
+#leaf-icon {
+    display: block;
+    margin: 0px 5px 0px 0px;
+    width: 10px;
+    height: auto;
 }
