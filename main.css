@@ -115,6 +115,7 @@ a:hover {
 }
 
 .search-button {
+    display: block;
     background-color: rgb(247, 247, 247);
     color: rgb(56, 56, 56);
     text-decoration: none;
@@ -125,13 +126,18 @@ a:hover {
 
 }
 
+.search-button:hover {
+    text-decoration: none;
+    border: 1px solid rgb(233, 233, 233);
+    box-shadow: 0px 1px 1px rgb(233, 233, 233);
+}
+
 /* Bottom Navigation */ 
 
 #bottom-nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
-
 }
 
 #bottom-nav-left {
