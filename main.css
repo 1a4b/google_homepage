@@ -155,11 +155,14 @@ a:hover {
 
 #bottom-nav-center {
     display: flex;
+    width: 400px;
+    flex-wrap: nowrap;
 }
 
 #leaf-icon {
     display: block;
     margin: 0px 5px 0px 0px;
     width: 10px;
+    vertical-align: center;
     height: auto;
 }
