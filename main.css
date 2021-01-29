@@ -153,6 +153,7 @@ a:hover {
     color: #70757a;
     text-decoration: none;
     justify-content: space-between;
+    font-size: 14px;
 }
 
 @media (max-width:878px) {
@@ -182,7 +183,6 @@ a:hover {
 
 #bottom-nav-right {
     display: flex;
-    align-self: flex-end;
 }
 
 #bottom-nav-center {
