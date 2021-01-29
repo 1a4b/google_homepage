@@ -146,11 +146,12 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
     position: fixed;
     bottom: 0px;
     background-color: #f2f2f2;
     border: 1px solid rgb(233, 233, 233);
+    color: #70757a;
+    text-decoration: none;
 }
 
 @media (max-width:878px) {
@@ -180,6 +181,7 @@ a:hover {
 
 #bottom-nav-right {
     display: flex;
+    align-self: flex-end;
 }
 
 #bottom-nav-center {
@@ -192,7 +194,7 @@ a:hover {
 }
 
 #bottom-nav-text {
-    color: #70757a;
+    color: #cfcfcf;
     text-decoration: none;
 }
 
