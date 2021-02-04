@@ -85,10 +85,11 @@ a:hover {
 #search-bar {
     display: block;
     margin: auto;
-    height: 40px;
-    width: 500px;
+    height: 44px;
+    width: auto;
+    max-width: 484px;
     margin: 30px auto auto auto;
-    border-radius: 20px;
+    border-radius: 44px;
     border: 1px solid rgb(216, 216, 216);
     background-color:white;
     display: flex;
@@ -102,7 +103,7 @@ a:hover {
     border: none;
     background-color: white;
     border-radius: 20px;
-    width: 425px;
+    width: auto;
 }
 
 #search-bar-input:focus-visible {
@@ -110,7 +111,9 @@ a:hover {
 }
 #search-icon {
     display: block;
-    padding: 10px;
+    height: 20px;
+    width: 20px;
+    padding: 10px 10px 10px 15px;
     color: rgb(189, 189, 189);
 }
 
@@ -160,7 +163,7 @@ a:hover {
     /*height: 40px;*/
 }
 
-@media (max-width:878px) {
+@media (max-width:930px) {
    #bottom-nav {
     flex-direction: column;
    }
