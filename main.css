@@ -105,6 +105,9 @@ a:hover {
     width: 425px;
 }
 
+#search-bar-input:focus-visible {
+    outline: none;
+}
 #search-icon {
     display: block;
     padding: 10px;
