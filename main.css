@@ -1,3 +1,7 @@
+body {
+    overflow-x:hidden;
+}
+
 /*Top Navigation Components */
 
 #top-nav{
